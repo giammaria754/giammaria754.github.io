@@ -19,11 +19,11 @@ $(function() {
             $.ajax({
                 url: "https://formspree.io/f/mpzorazp",
                 type: "POST",
+                dataType: 'json',
                 data: {
                     name: name,
                     email: email,
-                    message: message,
-                    dataType: 'json'
+                    message: message
                 },
                 cache: false,
                 success: function() {
