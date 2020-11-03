@@ -22,7 +22,8 @@ $(function() {
                 data: {
                     name: name,
                     email: email,
-                    message: message
+                    message: message,
+                    dataType: 'json'
                 },
                 cache: false,
                 success: function() {
